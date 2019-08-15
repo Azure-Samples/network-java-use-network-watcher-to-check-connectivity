@@ -4,12 +4,12 @@ languages:
 - java
 products:
 - azure
-services: network-watcher,virtual-network
-platforms: java
-author: yaohaizh
+extensions:
+- services: network-watcher,virtual-network
+- platforms: java
 ---
 
-## Getting Started with Network - Verify Network Peering With Network Watcher - in Java ##
+# Getting Started with Network - Verify Network Peering With Network Watcher - in Java #
 
 
   Azure Network sample for verifying connectivity between two peered virtual networks using Azure Network Watcher.

@@ -4,9 +4,8 @@ languages:
 - java
 products:
 - azure
-extensions:
-- services: network-watcher,virtual-network
-- platforms: java
+description: "Getting Started with Network - Verify Network Peering With Network Watcher - in Java"
+urlFragment: network-java-use-network-watcher-to-check-connectivity
 ---
 
 # Getting Started with Network - Verify Network Peering With Network Watcher - in Java #

@@ -8,7 +8,7 @@ description: "Getting Started with Network - Verify Network Peering With Network
 urlFragment: network-java-use-network-watcher-to-check-connectivity
 ---
 
-# Getting Started with Network - Verify Network Peering With Network Watcher - in Java
+# Verify Network Peering With Network Watcher (Java)
 
 
   Azure Network sample for verifying connectivity between two peered virtual networks using Azure Network Watcher.

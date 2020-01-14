@@ -4,11 +4,12 @@ languages:
 - java
 products:
 - azure
-description: "Getting Started with Network - Verify Network Peering With Network Watcher - in Java"
-urlFragment: network-java-use-network-watcher-to-check-connectivity
+extensions:
+- services: network-watcher,virtual-network
+- platforms: java
 ---
 
-# Verify Network Peering With Network Watcher (Java)
+# Getting Started with Network - Verify Network Peering With Network Watcher - in Java #
 
 
   Azure Network sample for verifying connectivity between two peered virtual networks using Azure Network Watcher.
@@ -37,7 +38,7 @@ urlFragment: network-java-use-network-watcher-to-check-connectivity
  
  
 
-## Running this Sample
+## Running this Sample ##
 
 To run this sample:
 
@@ -49,7 +50,7 @@ Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an aut
 
     mvn clean compile exec:java
 
-## More information
+## More information ##
 
 [http://azure.com/java](http://azure.com/java)
 

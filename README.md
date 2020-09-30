@@ -5,8 +5,8 @@ languages:
 products:
 - azure
 extensions:
-- services: network-watcher,virtual-network
-- platforms: java
+  services: network-watcher,virtual-network
+  platforms: java
 ---
 
 # Getting Started with Network - Verify Network Peering With Network Watcher - in Java #
